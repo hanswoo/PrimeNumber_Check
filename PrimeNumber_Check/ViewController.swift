@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func chk(_ sender: Any) {
         let number = Int(txt.text!)
         var prime = true
-        if  number == 1{
+        if  number != 1{
             prime = false
         }
         if number != 1 && number != 2{
